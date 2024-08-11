@@ -4,10 +4,15 @@ let index = 0;
 
 let showTrades = [
     document.getElementById("trade1"),
+    document.getElementById("prova1"),
     document.getElementById("trade2"),
+    document.getElementById("prova2"),
     document.getElementById("trade3"),
+    document.getElementById("prova3"),
     document.getElementById("trade4"),
-    document.getElementById("trade5")
+    document.getElementById("prova4"),
+    document.getElementById("trade5"),
+    document.getElementById("prova5")
 ];
 
 // Função para ocultar todas as imagens e mostrar apenas a imagem atual
