@@ -23,11 +23,17 @@ body{
     align-items: center;
     font-family: 'opensauceregular','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
+.geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Logo da tickpro trading*/
 .logo{
     width: 160px;
-    padding: 10px;
+    padding: 15px;
     padding-bottom: 15px;
 }
 
@@ -355,14 +361,19 @@ footer{
 /* Tablets min-width: 768px) */
 @media (min-width: 768px) {
     body{
-        width: 95%;
+        margin: auto;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .bloco1 {
         display: none; /* Esconde o bloco 1 */
     }
     .bloco2 {
         display: flex; /* Mostra o bloco 2 */
-        width: 75%;
+        width: 100%;
+    
     }
     .headSubhead{
         padding-bottom: 35px;
@@ -402,27 +413,28 @@ footer{
 
 /* Laptops pequenos e tablets em modo paisagem (max-width: 1024px) */
 @media (min-width: 1024px) {
+
     .bloco1 {
         display: none; /* Esconde o bloco 1 */
     }
     .bloco2 {
         display: flex; /* Mostra o bloco 2 */
         margin: auto;
-        max-width: 95%;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        max-width: 75%;
+        flex-direction:row;
         gap: 20px;
+       
     }
     .boxEsquerdo {
-        width: 80%;
+        width: 100%;
+        margin-left: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .imagemEbook {
-        width: 50%;
+        width: 65%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -439,19 +451,18 @@ footer{
     .boxPreco button {
         width: 100%;
     }
-
+    .headSubhead{
+        padding-bottom: 10px;
+    }
 }
 
 /*para desktops grandes ou monitores widescreen*/
 @media (min-width: 1440px){
-    html{
-        background-color: #128C7E;
-    }
-    body{
-
-        width: 85%;
-        margin: auto;
+    .bloco2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+       
     }
 }
-
-
