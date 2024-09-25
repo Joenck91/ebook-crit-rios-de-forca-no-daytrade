@@ -14,7 +14,8 @@ html{
     max-width: 100vw;
 }
 body{
-    background-color: black;
+    /*background-color: rgb(1, 0, 32);*/
+    background: linear-gradient(to bottom, #070707, #010027, #030303);
     color: aliceblue;
     max-width: 100vw; /* Limita a largura máxima ao tamanho da viewport */
     display: flex;
